@@ -4,8 +4,6 @@
   </a>
 </p>
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Gitter chat][gitter-image]][gitter-url]
-
 ## What is this package?
 
 This package contains a common set of tasks/scripts for the gulp
