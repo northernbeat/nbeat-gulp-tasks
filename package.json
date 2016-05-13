@@ -1,0 +1,23 @@
+{
+    "name": "@eirikref/nbeat-gulp-tasks",
+    "version": "1.0.0",
+    "description": "Common gulp tasks used in nbeat projects",
+    "repository": {
+        "type": "git",
+        "url": "github.com/northernbeat/nbeat-gulp-tasks"
+    },
+    "keywords": [
+        "nbeat",
+        "gulp"
+    ],
+    "author": {
+        "name": "Northern Beat",
+        "url": "http://www.northernbeat.no/"
+    },
+    "contributors": [
+        {
+            "name": "Eirik Refsdal",
+            "email": "eirik.refsdal@nbeat.no"
+        }
+    ]
+}
