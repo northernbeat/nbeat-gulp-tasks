@@ -1,10 +1,10 @@
 module.exports = function(gulp, plugins, config)
 {
-    var dest = config.main.dest + config.sass.dest;
+    var dest = config.build.dest + config.sass.dest;
     
     return function()
     {
-        config.sass.opts.includePaths.unshift(config.main.base + "/scss/");
+        config.sass.opts.includePaths.unshift("node_modules/@eirikref/nbeat-sass/scss/");
 
         return gulp
             .src(config.sass.src)

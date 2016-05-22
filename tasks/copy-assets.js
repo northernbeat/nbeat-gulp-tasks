@@ -13,7 +13,7 @@ module.exports = function(gulp, plugins, config)
             if (config["assets"][type]["src"] instanceof Array && config["assets"][type]["dest"]) {
                 config["assets"][type]["src"].forEach(function(a) {
                     return gulp.src(a)
-                        .pipe(gulp.dest(config.main.dest + config["assets"][type]["dest"]))
+                        .pipe(gulp.dest(config.build.dest + config["assets"][type]["dest"]))
                         .pipe(plugins.debug({title: "Asset, " + type + ":"}))
                 });
             }

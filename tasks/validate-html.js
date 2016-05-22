@@ -1,6 +1,6 @@
 module.exports = function(gulp, plugins, config)
 {
-    var src = config.main.dest + "/*.html";
+    var src = config.build.dest + "/*.html";
     
     return function()
     {

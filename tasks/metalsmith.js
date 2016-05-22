@@ -1,7 +1,7 @@
 module.exports = function(gulp, plugins, config)
 {
-    var src      = config.metalsmith.src;
-    var dest     = config.main.dest;
+    var src  = config.metalsmith.src;
+    var dest = config.build.dest;
     
     return function()
     {
