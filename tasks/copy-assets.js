@@ -1,11 +1,9 @@
 module.exports = function(gulp, plugins, config)
 {
-    // var util = require("gulp-util");
-
     return function()
     {
         if (!config.assets instanceof Object) {
-            plugins.gulpUtil.log("No assets, exiting.");
+            plugins.util.log("No assets, exiting.");
             return;
         }
         
@@ -16,6 +14,8 @@ module.exports = function(gulp, plugins, config)
                         .pipe(gulp.dest(config.build.dest + config["assets"][type]["dest"]))
                         .pipe(plugins.debug({title: "Asset, " + type + ":"}))
                 });
+            } else {
+                plugins.util.log("Cannot process: " + type);
             }
         }
     }
