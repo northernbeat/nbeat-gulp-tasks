@@ -1,0 +1,112 @@
+{
+    "build": {
+        "dest": "dist"
+    },
+
+    "nbeat": {
+        "gulp": "./.gulp"
+    },
+    
+    "gulp": {
+        "loadPlugins": {
+            "pattern": ["gulp-*",
+                        "gulp.",
+                        "debug",
+                        "del",
+                        "nano",
+                        "metalsmith-*"]
+        }
+    },
+
+    "webserver": {
+        "opts": {
+            "root": "dist/",
+            "livereload": true,
+            "port": 10000
+        }
+    },
+
+    "metalsmith": {
+        "engine":    "swig",
+        "src":       "src/html/pages/**/*",
+        "templates": "src/html/templates",
+        "metadata": {
+            "config": {
+                "isExternalSrc": true
+            },
+            "files": {
+                "global": "./var/global.json"
+            }
+        }
+    },
+    
+    "sass": {
+        "src":  "src/scss/*.scss",
+        "dest": "/css",
+        "opts": {
+            "includePaths": ["./node_modules"
+                            ],
+            "Sourcemap": true,
+            "omitSourceMapUrl": true,
+            "outFile": "./dist/css/site.map"
+        }
+    },
+
+    "stylelint": {
+        "src": [
+            "src/scss/**/*.scss",
+            "!src/scss/ext/**/*.scss"
+        ],
+        "opts": {
+            "reportOutputDir": "reports/lint",
+            "reporters": [
+                { "formatter": "string",
+                  "console": true },
+                { "formatter": "json",
+                  "save": "report.json" }
+            ],
+            "debug": true
+        }
+    },
+
+    "specGraph": {
+        "src": "dist/css/kpmg.css",
+        "opts": {
+            "directory": "dist/spec-graph"
+        }
+    },
+
+    "svg": {
+        "src": "src/svg/**/*.svg",
+        "dest": "/img"
+    },
+    
+    "assets": {
+        "images": {
+            "dest": "/img",
+            "src": ["src/img/**/*"
+                   ]
+        },
+        "fonts": {
+            "dest": "/fonts",
+            "src": ["src/fonts/**/*"]
+        },
+        "css": {
+            "dest": "/css",
+            "src": []
+        },
+        "favicon": {
+            "dest": "/",
+            "src": ["src/favicon/**/*"]
+        },
+        "js": {
+            "dest": "/js",
+            "src": ["src/js/**/*",
+                    "node_modules/jquery/dist/jquery.min.js",
+                    "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                    "node_modules/popper.js/dist/umd/popper.min.js",
+                    "node_modules/scrolltofixed/jquery-scrolltofixed-min.js"
+                   ]
+        }
+    }
+}

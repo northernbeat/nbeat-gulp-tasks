@@ -19,5 +19,6 @@ module.exports = function(gulp, plugins, config)
             }))
             .pipe(gulp.dest(dest))
             .pipe(plugins.debug({title: "HTML, output:"}))
+            .pipe(plugins.connect.reload())
     }
 };

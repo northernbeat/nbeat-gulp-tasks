@@ -14,6 +14,7 @@ different projects.
 - **copy-assets** - Copy configured lists of assets (fonts, images, favicons, etc.) from their given location to the proper location inside the build directory.
 - **metalsmith** - Run HTML template generation using Metalsmith.
 - **sass** - Build CSS files from SASS project.
+- **svg** - Build SVG sprites from a directory of SVG files (WiP)
 - **validate-html** - Run VNU validator on HTML files in build directory.
 - **watch** - Helper task for running gulp watch on the project.
 

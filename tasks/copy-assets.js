@@ -13,6 +13,7 @@ module.exports = function(gulp, plugins, config)
                     return gulp.src(a)
                         .pipe(gulp.dest(config.build.dest + config["assets"][type]["dest"]))
                         .pipe(plugins.debug({title: "Asset, " + type + ":"}))
+                        .pipe(plugins.connect.reload())
                 });
             } else {
                 plugins.util.log("Cannot process: " + type);

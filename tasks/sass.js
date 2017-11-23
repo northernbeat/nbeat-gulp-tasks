@@ -22,5 +22,6 @@ module.exports = function(gulp, plugins, config)
             }))
             .pipe(gulp.dest(dest))
             .pipe(plugins.debug({title: "Sass, output:"}))
+            .pipe(plugins.connect.reload())
     };
 };
