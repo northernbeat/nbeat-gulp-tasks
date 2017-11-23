@@ -4,7 +4,7 @@
     },
 
     "nbeat": {
-        "gulp": "./.gulp"
+        "gulp": "./node_modules/@eirikref/nbeat-gulp-tasks/tasks"
     },
     
     "gulp": {

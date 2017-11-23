@@ -1,6 +1,6 @@
 {
     "name": "@eirikref/nbeat-gulp-tasks",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Common gulp tasks used in nbeat projects",
     "repository": {
         "type": "git",
