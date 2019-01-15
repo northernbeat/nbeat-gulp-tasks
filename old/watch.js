@@ -9,5 +9,8 @@ module.exports = function(gulp, plugins, config)
         gulp.watch("src/js/**",          ["assets"]);
         gulp.watch("src/scss/**/*.scss", ["css"]);
         gulp.watch("var/**",             ["default"]);
+        gulp.watch("src/svg/**",         ["svg"]);
+        gulp.watch("nbeat.json",         ["default"]);
+        // plugins.connect.reload();
     };
 };

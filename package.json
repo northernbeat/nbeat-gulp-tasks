@@ -1,7 +1,7 @@
 {
-    "name": "@eirikref/nbeat-gulp-tasks",
-    "version": "1.0.10",
-    "description": "Common gulp tasks used in nbeat projects",
+    "name": "@northernbeat/gulp-tasks",
+    "version": "0.1.0",
+    "description": "Common Gulp tasks used in Northern Beat projects",
     "repository": {
         "type": "git",
         "url": "github.com/northernbeat/nbeat-gulp-tasks"
@@ -19,5 +19,8 @@
             "name": "Eirik Refsdal",
             "email": "eirik.refsdal@nbeat.no"
         }
-    ]
+    ],
+    "dependencies": {
+        "fancy-log": "^1.3.3"
+    }
 }
