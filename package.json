@@ -1,6 +1,6 @@
 {
     "name": "@northernbeat/gulp-tasks",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Common Gulp tasks used in Northern Beat projects",
     "main": "index.js",
     "repository": {
@@ -33,6 +33,7 @@
         "gulp-exec": "^3.0.2",
         "gulp-html": "^0.5.0",
         "gulp-htmltidy": "^0.2.4",
+        "gulp-minify": "^3.1.0",
         "gulp-plumber": "^1.2.1",
         "gulp-rename": "^1.4.0",
         "gulp-sass": "^4.0.2",
@@ -49,7 +50,7 @@
         "run-sequence": "^2.2.1",
         "stylelint": "^9.10.1",
         "stylelint-declaration-use-variable": "^1.7.0",
-        "stylelint-scss": "^3.5.1",
+        "stylelint-scss": "^3.5.3",
         "undertaker-registry": "^1.0.1",
         "util": "^0.11.1",
         "validator-nu": "^2.2.2",
