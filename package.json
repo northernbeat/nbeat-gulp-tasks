@@ -18,7 +18,7 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/gulp-wpstylecss": "0.0.1",
+        "@northernbeat/gulp-wpstylecss": "0.0.2",
         "chalk": "^2.4.2",
         "cors": "^2.8.5",
         "del": "^5.1.0",
