@@ -19,7 +19,7 @@
     ],
     "dependencies": {
         "@northernbeat/gulp-wpstylecss": "0.0.2",
-        "chalk": "^2.4.2",
+        "chalk": "^3.0.0",
         "cors": "^2.8.5",
         "del": "^5.1.0",
         "event-stream": "^4.0.1",
@@ -32,7 +32,7 @@
         "gulp-debug": "^4.0.0",
         "gulp-eslint": "^6.0.0",
         "gulp-exec": "^4.0.0",
-        "gulp-html": "^0.8.1",
+        "gulp-html": "^1.0.0",
         "gulp-htmltidy": "^0.2.4",
         "gulp-minify": "^3.1.0",
         "gulp-plumber": "^1.2.1",
@@ -50,13 +50,13 @@
         "require-directory": "^2.1.1",
         "run-sequence": "^2.2.1",
         "sassdoc": "^2.7.1",
-        "stylelint": "^11.1.1",
+        "stylelint": "^12.0.0",
         "stylelint-declaration-use-variable": "^1.7.2",
         "stylelint-scss": "^3.12.1",
         "undertaker-registry": "^1.0.1",
         "util": "^0.12.1",
         "validator-nu": "^2.2.2",
-        "vinyl-paths": "^3.0.0",
+        "vinyl-paths": "^3.0.1",
         "vnu-jar": "^19.9.4"
     }
 }
