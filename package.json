@@ -49,7 +49,7 @@
         "require-directory": "^2.1.1",
         "run-sequence": "^2.2.1",
         "sassdoc": "^2.7.1",
-        "stylelint": "^13.0.0",
+        "stylelint": "^13.1.0",
         "stylelint-declaration-use-variable": "^1.7.2",
         "stylelint-scss": "^3.14.2",
         "undertaker-registry": "^1.0.1",
