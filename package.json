@@ -1,6 +1,6 @@
 {
     "name": "@northernbeat/gulp-tasks",
-    "version": "1.0.30",
+    "version": "1.0.31",
     "description": "Common Gulp tasks used in Northern Beat projects",
     "main": "index.js",
     "repository": {
