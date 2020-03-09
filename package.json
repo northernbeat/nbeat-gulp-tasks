@@ -46,6 +46,7 @@
         "gulp-twig": "^1.2.0",
         "module-exists": "^0.2.1",
         "node-sass": "^4.13.1",
+        "npm-check-updates": "^4.0.4",
         "require-directory": "^2.1.1",
         "run-sequence": "^2.2.1",
         "sassdoc": "^2.7.1",
@@ -56,6 +57,6 @@
         "util": "^0.12.2",
         "validator-nu": "^2.2.2",
         "vinyl-paths": "^3.0.1",
-        "vnu-jar": "^20.2.25"
+        "vnu-jar": "^20.2.28"
     }
 }
