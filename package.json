@@ -48,6 +48,7 @@
         "gulp-stylelint": "^13.0.0",
         "gulp-svg-sprite": "^1.5.0",
         "gulp-twig": "^1.2.0",
+        "gulp-wpstylecss": "0.0.1",
         "module-exists": "^0.2.1",
         "node-sass": "^4.13.1",
         "npm-check-updates": "^4.0.4",
