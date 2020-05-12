@@ -22,7 +22,7 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/gulp-wpstylecss": "0.0.4",
+        "@northernbeat/gulp-wpstylecss": "0.0.5",
         "chalk": "^4.0.0",
         "cors": "^2.8.5",
         "del": "^5.1.0",
