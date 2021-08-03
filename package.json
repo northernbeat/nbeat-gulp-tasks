@@ -54,6 +54,7 @@
         "node-sass": "^6.0.1",
         "require-directory": "^2.1.1",
         "run-sequence": "^2.2.1",
+        "sass": "^1.37.2",
         "sassdoc": "^2.7.3",
         "stylelint": "^13.13.1",
         "stylelint-declaration-use-variable": "^1.7.3",
