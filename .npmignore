@@ -3,3 +3,4 @@ docs/
 legacy/
 node_modules/
 old/
+yarn.lock
