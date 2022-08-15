@@ -1,0 +1,5 @@
+.editorconfig
+docs/
+legacy/
+node_modules/
+old/
