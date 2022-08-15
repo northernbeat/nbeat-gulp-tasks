@@ -25,7 +25,7 @@
         "@northernbeat/gulp-wpstylecss": "0.0.5",
         "chalk": "^4.1.2",
         "cors": "^2.8.5",
-        "del": "^7.0.0",
+        "del": "^6.1.1",
         "event-stream": "^4.0.1",
         "fancy-log": "^2.0.0",
         "gulp": "^4.0.2",
